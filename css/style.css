@@ -25,10 +25,8 @@ header{
 }
 .s1{
     width: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-    position: absolute;
-    top: 70px;
+    display: flex;
+    padding: 30px;
 }
 .tx1{
     color: white;
@@ -75,7 +73,9 @@ header{
     padding: 20px;
 }
 
-
+.sides{
+    display: flex;
+}
 
 .sc3{
     padding: 40px;
@@ -85,12 +85,19 @@ header{
 .sc3tx1{
     padding: 10px;
     width: 80%;
+    text-justify: auto;
 }
 .sc3a{
-    display: grid;
-    grid-template-columns: auto auto;
+    padding: 20px;
 }
 
+.teds{
+    background-color: rgb(8, 50, 99);
+    color: white;
+    font-size: 30px;
+    height: 700px;
+    padding-top: 140px;
+}
 
 .sc4{
     background-color: black;
